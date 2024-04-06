@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <div className='flex flex-col w-full'>
       <PageTitle title="Portfolio " />
-      <div className='w-full flex flex-row justify-between pt-3' style={{ paddingLeft: '250px' }}>
+      <div className='w-full flex flex-row justify-between pt-3' >
         <Link className='portfolio'>All</Link>
         <Link className='portfolio'>App Development</Link>
         <Link className='portfolio'>Web Development</Link>

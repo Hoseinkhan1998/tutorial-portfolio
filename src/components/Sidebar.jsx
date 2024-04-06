@@ -24,7 +24,7 @@ const Sidebar = () => {
                     {/* Phone */}
 
                     <div className='w-full flex justify-center items-center flex-col mt-6 mb-16' style={{ backgroundColor: 'rgba(24, 119, 242, 0.1)', borderRadius: '20px' }}>
-                        <div className='w-full flex flex-row  items-center mt-6' style={{}}>
+                        <a href='tel:+98203101785' className='w-full flex flex-row  items-center mt-6' style={{}}>
                             <div className='pl-10'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="21" viewBox="0 0 12 21" fill="none">
                                     <path d="M10 0.5H2C1.46957 0.5 0.960859 0.710714 0.585786 1.08579C0.210714 1.46086 0 1.96957 0 2.5V18.5C0 19.0304 0.210714 19.5391 0.585786 19.9142C0.960859 20.2893 1.46957 20.5 2 20.5H10C10.5304 20.5 11.0391 20.2893 11.4142 19.9142C11.7893 19.5391 12 19.0304 12 18.5V2.5C12 1.96957 11.7893 1.46086 11.4142 1.08579C11.0391 0.710714 10.5304 0.5 10 0.5ZM7 19.5H5V18.5H7V19.5ZM10 17.5H2V3.5H10V17.5Z" fill="url(#paint0_linear_27_10)" />
@@ -41,13 +41,13 @@ const Sidebar = () => {
                                 <p style={{ fontSize: '14px', color: 'rgba(26, 16, 3, 0.5)', fontFamily: 'Raleway' }}>Phone</p>
                                 <p style={{ fontSize: '0.75vw', color: 'rgba(0, 0, 0, 1)', fontFamily: 'Raleway', fontWeight: 'bold' }}>+989203101785</p>
                             </div>
-                        </div>
+                        </a >
                         <div className='flex justify-center items-center mt-7' style={{ width: '80%', height: '1px', backgroundColor: 'rgba(227, 227, 227, 1)' }}></div>
 
                         {/* email */}
 
 
-                        <div className='w-full flex flex-row  items-center mt-8' style={{}}>
+                        <a href='mailto:mhmazinani1994@gmail.com' className='w-full flex flex-row  items-center mt-8' style={{}}>
                             <div className='pl-10'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M0.969999 5.65L10 0L19.03 5.65C19.61 6 20 6.63 20 7.36V17.36C20 18.46 19.1 19.36 18 19.36H2C0.9 19.36 0 18.46 0 17.36V7.36C0 6.63 0.389999 6 0.969999 5.65ZM2 17.36H18V9.36L10 14.36L2 9.36V17.36ZM10 12.36L18 7.36L10 2.36L2 7.36L10 12.36Z" fill="#FF9C1B" />
@@ -58,7 +58,7 @@ const Sidebar = () => {
                                 <p style={{ fontSize: '14px', color: 'rgba(26, 16, 3, 0.5)', fontFamily: 'Raleway' }}>Email</p>
                                 <p style={{ fontSize: '0.75vw', color: 'rgba(0, 0, 0, 1)', fontFamily: 'Raleway', fontWeight: 'bold' }}>Hosein.mazinani.1998@gmail.com</p>
                             </div>
-                        </div>
+                        </a>
                         <div className='flex justify-center items-center mt-7' style={{ width: '80%', height: '1px', backgroundColor: 'rgba(227, 227, 227, 1)' }}></div>
 
                         {/* Location */}
